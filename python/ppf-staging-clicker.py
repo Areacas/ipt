@@ -9,7 +9,7 @@ if len(sys.argv) >= 2:
 
   client = TelegramClient('pantini', api_id, api_hash)
 
-  @client.on(events.NewMessage("https://t.me/ppf_official"))
+  @client.on(events.NewMessage("https://t.me/joinchat/HZLgHnK8TQAyZWQy"))
   async def new_message_event_handler(event):
     global last_message_id
 
